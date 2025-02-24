@@ -4,7 +4,7 @@
 
 #define linux ((void (*)(uint32_t, uint32_t, uint32_t))0x2008000)
 
-__attribute__((naked)) void start()
+void start()
 {
   // unlock slcr
   set(0xF8000008, 0xDF0D);
