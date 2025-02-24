@@ -1,4 +1,4 @@
-CFLAGS = -Os -march=armv7-a -mtune=cortex-a9 -nostdlib -Wl,-s,-Tssbl.ld
+CFLAGS = -Os -march=armv7-a -mtune=cortex-a9 -nostdlib -n -s -T ssbl.ld
 
 all: ssbl.elf
 
